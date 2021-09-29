@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <input type="text" placeholder="username" id="username">
+    <input type="text" placeholder="email" id="email">
+    <input type="password" placeholder="password" id="password">
+    <button id="btn">register</button>
+    
+</body>
+
+ <script>
+//      var ID = function () {
+//   return '_' + Math.random().toString(36).substr(2, 9);
+// };
+// console.log(ID())
+
+     const username = document.getElementById('username')
+     const email = document.getElementById('email')
+     const password = document.getElementById('password')
+     const btn = document.getElementById('btn')
+
+     let arr = []
+    // arr = (JSON.parse(localStorage.getItem('profile')))
+btn.addEventListener{}
+    if(localStorage['profile']){
+        arr =5 (JSON.parse(localStorage.getItem('profile')))
+    }
+
+     class User{
+         constructor(name, email, password){
+             this.username = name,
+             this.email = email,
+             this.password = password
+             this.id = Math.random().toString(36).substr(2, 9);
+         }
+     }
+
+    //  btn.addEventListener('click', () => {
+    //      let user = new User(username.value, email.value, password.value)
+
+    //      localStorage.setItem('loggedIn', 'false')
+
+    //     if ("profile" in localStorage) {
+    //          let arr;
+    //      arr = (JSON.parse(localStorage.getItem('profile')))
+    //      arr.push(user)
+    //      localStorage.setItem("profile", JSON.stringify(arr));
+    //      arr = []
+    //      } else {
+    //         localStorage.setItem("profile", JSON.stringify(user));
+    //      }
+         
+         
+    //  })
+
+    //  JSON.parse(localStorage.getItem('profile'))
+ </script>
+
+</html>
